@@ -38,10 +38,6 @@ Abaixo estão descritas as tabelas utilizadas no projeto, com suas colunas, desc
 | valor_restos_a_pagar_pagos_rs     | Valor pago de restos a pagar anteriormente inscritos.                                          | FLOAT   |
 | codigo_ano_mes                     | Identificador numérico do ano e mês (formato AAAAMM).                                          | INTEGER |
 
-# 📘 Catálogo de Dados
-
-Abaixo estão descritas as tabelas utilizadas no projeto, com suas colunas, descrições e tipos de dados estimados:
-
 ### data_cleaned['codigo_gestao']
 
 | Campo | Descrição | Tipo |
@@ -126,7 +122,7 @@ Abaixo estão descritas as tabelas utilizadas no projeto, com suas colunas, desc
 
 | Campo | Descrição | Tipo |
 |-------|-----------|------|
-| codigo_acao | Código identificador relacionado à entidade. | INTEGER |
+| codigo_acao | Código identificador relacionado à entidade. | STRING |
 | nome_acao | Nome relacionado à entidade. | STRING |
 
 ### dim_despesa
